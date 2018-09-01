@@ -12,7 +12,7 @@ class PigLatinizer
           word[i] = word[i+1]
         end 
         word[word.length-1]=first_letter
-        
+        binding.pry
     end 
     word.join + "ay" 
   
